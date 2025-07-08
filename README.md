@@ -32,30 +32,13 @@ Este script em Python utiliza a biblioteca **Pandas** para realizar uma análise
 
 ## 🔧 Funcionalidades do Script
 
-caminho_dados = "/content/drive/MyDrive/Pandas-intro/2025_Viagem.csv"
-caminho_saida_tab = "/content/drive/MyDrive/Pandas-intro/OutPut/2025_Viagem_final.xlsx"
-caminho_saida_grafico1 = "/content/drive/MyDrive/Pandas-intro/OutPut/Fig_GF1.png"
-caminho_saida_grafico2 = "/content/drive/MyDrive/Pandas-intro/OutPut/Fig_GF2.png"
-
-
 ### 📥 1. Importação de Dados
 - Leitura de arquivo CSV com encoding específico (`Windows-1252`) e separador `;`.
 - Caminhos configurados para leitura de dados e exportação dos resultados.
 
-import pandas as pd
-df_viagens = pd.read_csv(caminho_dados, encoding="Windows-1252", sep=";")
-pd.set_option('display.max_columns', None)
-
-
 ### 🔄 2. Conversão de Tipos de Dados
 - Conversão de colunas financeiras (`Valor diárias`, `Valor passagens`, `Valor devolução`, `Valor outros gastos`) para tipo `float`.
 - Substituição de vírgulas por pontos nas colunas numéricas.
-
-df_viagens["Valor diárias"] = df_viagens["Valor diárias"].str.replace(",",".").astype(float)
-df_viagens["Valor passagens"] = df_viagens["Valor passagens"].str.replace(",",".").astype(float)
-df_viagens["Valor devolução"] = df_viagens["Valor devolução"].str.replace(",",".").astype(float)
-df_viagens["Valor outros gastos"] = df_viagens["Valor outros gastos"].str.replace(",",".").astype(float)
-
 
 ### ➕ 3. Cálculo de Total de Gastos
 - Criação de nova coluna chamada **`Total de gastos`**, com a soma de todas as despesas relacionadas a cada viagem.
@@ -91,9 +74,6 @@ df_viagens["Valor outros gastos"] = df_viagens["Valor outros gastos"].str.replac
 
 ### 💾 10. Exportação dos Resultados
 - Exportação da tabela consolidada para um arquivo Excel (`.xlsx`) no diretório de saída.
-
-## 🗂️ Estrutura Esperada
-
 
 
 
