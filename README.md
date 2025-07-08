@@ -17,8 +17,8 @@ Este repositório tem como objetivo compartilhar meus primeiros aprendizados com
 📂 Pandas-intro
   ┣ 📂 .ipynb_checkpoints
   ┣ 📂 OutPut
-  ┣ 📄 2025_Pagamento
   ┣ 📄 2025_Passagem
-  ┣ 📄 2025_Trecho
   ┣ 📄 2025_Viagem
 
+(Não foi possível fazer uploads dos arquivos, pois são maiores do que 25Mb e o GitHub não permite ser maior do que 25Mb)
+Link do meu Google Drive com os arquivos: https://drive.google.com/drive/folders/1N0WJwMdg1uRU3pGT8qpeURP5gwG0_qqy?usp=drive_link  
