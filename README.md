@@ -15,10 +15,17 @@ Este repositório tem como objetivo compartilhar meus primeiros aprendizados com
 ## 📁 Estrutura do repositório
 
 📂 Pandas-intro
-  ┣ 📂 .ipynb_checkpoints
-  ┣ 📂 OutPut
-  ┣ 📄 2025_Passagem
-  ┣ 📄 2025_Viagem
+┣ 📂 .ipynb_checkpoints
+┣ 📂 OutPut
+┣ 📄 2025_Passagem
+┣ 📄 2025_Viagem
+
+📂 pandas-intro
+┣ 📄 aula01_leitura_dados.ipynb
+┣ 📄 aula02_filtragem_e_selecao.ipynb
+┣ 📄 aula03_limpeza_dados.ipynb
+┣ 📄 aula04_analise_exploratoria.ipynb
+┗ 📄 README.md****
 
 (Não foi possível fazer uploads dos arquivos, pois são maiores do que 25Mb e o GitHub não permite ser maior do que 25Mb)
 Link do meu Google Drive com os arquivos: https://drive.google.com/drive/folders/1N0WJwMdg1uRU3pGT8qpeURP5gwG0_qqy?usp=drive_link  
